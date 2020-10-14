@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+
+    <title>Email form</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
+    <script src="./scripts.js"></script>
+</head>
+
+<body>
+
+    <div style="min-height: 200px; max-width: 300px;" class="p-5">
+        <!-- Form -->
+        <div>
+            <form class="" id="contact-form" method="POST"
+                enctype="application/x-www-form-urlencoded">
+
+                <div class="form-group">
+                    <input aria-describedby="name"
+                        class="form-control" name="name"
+                        id="name" placeholder="Name" type="text" required>
+                </div>
+
+                <div class="form-group">
+                    <input aria-describedby="email" class="form-control"
+                        id="email" name="email" placeholder="E-mail" type="email" required>
+                </div>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
